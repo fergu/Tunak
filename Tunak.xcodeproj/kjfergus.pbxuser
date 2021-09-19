@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Melodic */ = {
+		activeExec = 0;
+		executables = (
+			B5966724122B23CD00747202 /* Melodic */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = B5966724122B23CD00747202 /* Melodic */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Melodic */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Melodic */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = B5966733122B23D900747202 /* Code sense */;
+		executables = (
+			B5966724122B23CD00747202 /* Melodic */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1054,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1166,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1126,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317505027;
+			PBXWorkspaceStateSaveDate = 317505027;
+		};
+		perUserProjectItems = {
+			B5584A5F125AA73500D5049E /* PBXBookmark */ = B5584A5F125AA73500D5049E /* PBXBookmark */;
+			B59520BB127C96720001082D /* PBXTextBookmark */ = B59520BB127C96720001082D /* PBXTextBookmark */;
+			B596E05C12467BC600E983C4 /* PBXBookmark */ = B596E05C12467BC600E983C4 /* PBXBookmark */;
+			B5A5DC8A12B618DE0042F3BB /* PBXTextBookmark */ = B5A5DC8A12B618DE0042F3BB /* PBXTextBookmark */;
+			B5A6116212C016090099577F /* PBXTextBookmark */ = B5A6116212C016090099577F /* PBXTextBookmark */;
+			B5A6116412C016090099577F /* PBXTextBookmark */ = B5A6116412C016090099577F /* PBXTextBookmark */;
+			B5A6119012C01A0A0099577F /* PBXTextBookmark */ = B5A6119012C01A0A0099577F /* PBXTextBookmark */;
+			B5A6119112C01A0A0099577F /* PBXTextBookmark */ = B5A6119112C01A0A0099577F /* PBXTextBookmark */;
+			B5A6119312C01A0A0099577F /* PBXTextBookmark */ = B5A6119312C01A0A0099577F /* PBXTextBookmark */;
+			B5A6119412C01A0A0099577F /* PBXTextBookmark */ = B5A6119412C01A0A0099577F /* PBXTextBookmark */;
+			B5A74FDE12B42DB3003874DA /* PBXTextBookmark */ = B5A74FDE12B42DB3003874DA /* PBXTextBookmark */;
+			B5A74FF912B42EEE003874DA /* PBXTextBookmark */ = B5A74FF912B42EEE003874DA /* PBXTextBookmark */;
+			B5AA5E7112B6A49400E6EC34 /* PBXTextBookmark */ = B5AA5E7112B6A49400E6EC34 /* PBXTextBookmark */;
+			B5AA854A12988373007F1A63 /* PBXTextBookmark */ = B5AA854A12988373007F1A63 /* PBXTextBookmark */;
+			B5B17C2912D7C6CF004F5F5C /* PBXBookmark */ = B5B17C2912D7C6CF004F5F5C /* PBXBookmark */;
+			B5B17C2A12D7C6CF004F5F5C /* PBXTextBookmark */ = B5B17C2A12D7C6CF004F5F5C /* PBXTextBookmark */;
+			B5B252AC12ED2200002221EB /* PBXTextBookmark */ = B5B252AC12ED2200002221EB /* PBXTextBookmark */;
+			B5B252AD12ED2200002221EB /* PBXTextBookmark */ = B5B252AD12ED2200002221EB /* PBXTextBookmark */;
+			B5B7D89312B4454C00F56997 /* PBXTextBookmark */ = B5B7D89312B4454C00F56997 /* PBXTextBookmark */;
+			B5B7D89512B4454C00F56997 /* PBXTextBookmark */ = B5B7D89512B4454C00F56997 /* PBXTextBookmark */;
+			B5C3212912DE7B9200FD101B /* PlistBookmark */ = B5C3212912DE7B9200FD101B /* PlistBookmark */;
+			B5C5198512D9A1AE00236E21 /* PBXTextBookmark */ = B5C5198512D9A1AE00236E21 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B5966732122B23D900747202 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Tunak_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 569}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 179}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Tunak-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	B5584A5F125AA73500D5049E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B5584A30125A9D2700D5049E /* NoArtwork.png */;
+	};
+	B59520BB127C96720001082D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Tunak_Prefix.pch */;
+		name = "Tunak_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	B5966724122B23CD00747202 /* Melodic */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Melodic;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B5966732122B23D900747202 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B5966733122B23D900747202 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B596E05C12467BC600E983C4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B587BB671245C7CF00801A9D /* Accuracy.png */;
+	};
+	B5A4474812B336A4007952BA /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 481}}";
+			sepNavSelRange = "{772, 0}";
+			sepNavVisRange = "{3, 905}";
+		};
+	};
+	B5A4474912B336A4007952BA /* TunakAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 469}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 535}";
+		};
+	};
+	B5A4474A12B336A4007952BA /* TunakAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 1066}}";
+			sepNavSelRange = "{1553, 0}";
+			sepNavVisRange = "{341, 941}";
+		};
+	};
+	B5A4474E12B336AB007952BA /* TKSongCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 578}";
+		};
+	};
+	B5A4474F12B336AB007952BA /* TKSongCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 1261}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 934}";
+		};
+	};
+	B5A4475312B336AB007952BA /* TKMainView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 702}}";
+			sepNavSelRange = "{1219, 0}";
+			sepNavVisRange = "{165, 963}";
+		};
+	};
+	B5A4475412B336AB007952BA /* TKMainView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 3822}}";
+			sepNavSelRange = "{4295, 0}";
+			sepNavVisRange = "{4003, 418}";
+		};
+	};
+	B5A4475912B336AB007952BA /* TKStatusCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 514}}";
+			sepNavSelRange = "{613, 0}";
+			sepNavVisRange = "{0, 620}";
+		};
+	};
+	B5A4475A12B336AB007952BA /* TKStatusCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 1365}}";
+			sepNavSelRange = "{2777, 0}";
+			sepNavVisRange = "{1977, 833}";
+		};
+	};
+	B5A4475D12B336AB007952BA /* TKGameView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 819}}";
+			sepNavSelRange = "{1074, 0}";
+			sepNavVisRange = "{380, 974}";
+		};
+	};
+	B5A4475E12B336AB007952BA /* TKGameView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 6214}}";
+			sepNavSelRange = "{10043, 0}";
+			sepNavVisRange = "{9320, 1036}";
+		};
+	};
+	B5A4476112B336AB007952BA /* TKGameController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 1248}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{141, 609}";
+		};
+	};
+	B5A4476212B336AB007952BA /* TKGameController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 4784}}";
+			sepNavSelRange = "{3606, 0}";
+			sepNavVisRange = "{2952, 408}";
+		};
+	};
+	B5A5DC8A12B618DE0042F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4474912B336A4007952BA /* TunakAppDelegate.h */;
+		name = "TunakAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 0;
+	};
+	B5A6116212C016090099577F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4474E12B336AB007952BA /* TKSongCell.h */;
+		name = "TKSongCell.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 0;
+	};
+	B5A6116412C016090099577F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4474F12B336AB007952BA /* TKSongCell.m */;
+		name = "TKSongCell.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 3;
+	};
+	B5A6119012C01A0A0099577F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4474812B336A4007952BA /* Constants.h */;
+		name = "Constants.h: 31";
+		rLen = 0;
+		rLoc = 772;
+		rType = 0;
+		vrLen = 905;
+		vrLoc = 3;
+	};
+	B5A6119112C01A0A0099577F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4476112B336AB007952BA /* TKGameController.h */;
+		name = "TKGameController.h: 18";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 141;
+	};
+	B5A6119312C01A0A0099577F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4476212B336AB007952BA /* TKGameController.m */;
+		name = "TKGameController.m: 51";
+		rLen = 0;
+		rLoc = 1092;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 825;
+	};
+	B5A6119412C01A0A0099577F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4475D12B336AB007952BA /* TKGameView.h */;
+		name = "TKGameView.h: 40";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 380;
+	};
+	B5A74FD112B42D49003874DA /* TKLabel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344, 521}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
+	};
+	B5A74FD212B42D49003874DA /* TKLabel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 455}}";
+			sepNavSelRange = "{649, 0}";
+			sepNavVisRange = "{303, 392}";
+		};
+	};
+	B5A74FDE12B42DB3003874DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A74FD112B42D49003874DA /* TKLabel.h */;
+		name = "TKLabel.h: 12";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	B5A74FF912B42EEE003874DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A74FD212B42D49003874DA /* TKLabel.m */;
+		name = "TKLabel.m: 29";
+		rLen = 0;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	B5AA5E7112B6A49400E6EC34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4475312B336AB007952BA /* TKMainView.h */;
+		name = "TKMainView.h: 54";
+		rLen = 0;
+		rLoc = 1219;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 165;
+	};
+	B5AA854A12988373007F1A63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5AA854B12988373007F1A63 /* NSError.h */;
+		name = "NSError.h: 38";
+		rLen = 7;
+		rLoc = 2192;
+		rType = 0;
+		vrLen = 2434;
+		vrLoc = 0;
+	};
+	B5AA854B12988373007F1A63 /* NSError.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSError.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h;
+		sourceTree = "<absolute>";
+	};
+	B5B17C2912D7C6CF004F5F5C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B5297975129BA836001F5FB3 /* Icon.png */;
+	};
+	B5B17C2A12D7C6CF004F5F5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4475412B336AB007952BA /* TKMainView.m */;
+		name = "TKMainView.m: 173";
+		rLen = 0;
+		rLoc = 4295;
+		rType = 0;
+		vrLen = 902;
+		vrLoc = 3606;
+	};
+	B5B252AC12ED2200002221EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4474A12B336A4007952BA /* TunakAppDelegate.m */;
+		name = "TunakAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 1553;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 340;
+	};
+	B5B252AD12ED2200002221EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4474A12B336A4007952BA /* TunakAppDelegate.m */;
+		name = "TunakAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 1553;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 341;
+	};
+	B5B7D89312B4454C00F56997 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4475912B336AB007952BA /* TKStatusCell.h */;
+		name = "TKStatusCell.h: 19";
+		rLen = 0;
+		rLoc = 613;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 0;
+	};
+	B5B7D89512B4454C00F56997 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4475A12B336AB007952BA /* TKStatusCell.m */;
+		name = "TKStatusCell.m: 99";
+		rLen = 0;
+		rLoc = 2777;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 1977;
+	};
+	B5C3212912DE7B9200FD101B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Tunak-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+		);
+		name = "/Users/kjfergus/Code/Tunak/Tunak-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	B5C5198512D9A1AE00236E21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5A4475E12B336AB007952BA /* TKGameView.m */;
+		name = "TKGameView.m: 330";
+		rLen = 0;
+		rLoc = 10043;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 9320;
+	};
+}

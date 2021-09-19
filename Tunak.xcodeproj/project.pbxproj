@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B5297976129BA836001F5FB3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5297975129BA836001F5FB3 /* Icon.png */; };
+		B53BB20312B5A26100E19B5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53BB20212B5A26100E19B5F /* AVFoundation.framework */; };
+		B5584A31125A9D2700D5049E /* NoArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = B5584A30125A9D2700D5049E /* NoArtwork.png */; };
+		B587BB601245C7AA00801A9D /* LargeDrawer.png in Resources */ = {isa = PBXBuildFile; fileRef = B587BB5D1245C7AA00801A9D /* LargeDrawer.png */; };
+		B587BB611245C7AA00801A9D /* LargeDrawerWBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B587BB5E1245C7AA00801A9D /* LargeDrawerWBackground.png */; };
+		B587BB621245C7AA00801A9D /* SmallDrawer.png in Resources */ = {isa = PBXBuildFile; fileRef = B587BB5F1245C7AA00801A9D /* SmallDrawer.png */; };
+		B587BB691245C7CF00801A9D /* Accuracy.png in Resources */ = {isa = PBXBuildFile; fileRef = B587BB671245C7CF00801A9D /* Accuracy.png */; };
+		B587BB6A1245C7CF00801A9D /* HighScore.png in Resources */ = {isa = PBXBuildFile; fileRef = B587BB681245C7CF00801A9D /* HighScore.png */; };
+		B59520A9127C953A0001082D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59520A8127C953A0001082D /* iAd.framework */; };
+		B596E05612467A3800E983C4 /* Endurance.png in Resources */ = {isa = PBXBuildFile; fileRef = B596E05412467A3800E983C4 /* Endurance.png */; };
+		B596E05712467A3800E983C4 /* HighScores.png in Resources */ = {isa = PBXBuildFile; fileRef = B596E05512467A3800E983C4 /* HighScores.png */; };
+		B59A7FB61230361900B67234 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A7FB51230361900B67234 /* MediaPlayer.framework */; };
+		B5A4474B12B336A4007952BA /* TunakAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A4474A12B336A4007952BA /* TunakAppDelegate.m */; };
+		B5A4476312B336AB007952BA /* TKSongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A4474F12B336AB007952BA /* TKSongCell.m */; };
+		B5A4476412B336AB007952BA /* TKPadSongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475012B336AB007952BA /* TKPadSongCell.xib */; };
+		B5A4476512B336AB007952BA /* TKPhoneSongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475112B336AB007952BA /* TKPhoneSongCell.xib */; };
+		B5A4476612B336AB007952BA /* TKMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A4475412B336AB007952BA /* TKMainView.m */; };
+		B5A4476712B336AB007952BA /* TKPadMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475512B336AB007952BA /* TKPadMainView.xib */; };
+		B5A4476812B336AB007952BA /* TKPhoneMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475612B336AB007952BA /* TKPhoneMainView.xib */; };
+		B5A4476912B336AB007952BA /* TKStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A4475A12B336AB007952BA /* TKStatusCell.m */; };
+		B5A4476A12B336AB007952BA /* TKPadStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475B12B336AB007952BA /* TKPadStatusCell.xib */; };
+		B5A4476B12B336AB007952BA /* TKPhoneStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475C12B336AB007952BA /* TKPhoneStatusCell.xib */; };
+		B5A4476C12B336AB007952BA /* TKGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A4475E12B336AB007952BA /* TKGameView.m */; };
+		B5A4476D12B336AB007952BA /* TKPhoneGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4475F12B336AB007952BA /* TKPhoneGameView.xib */; };
+		B5A4476E12B336AB007952BA /* TKPadGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4476012B336AB007952BA /* TKPadGameView.xib */; };
+		B5A4476F12B336AB007952BA /* TKGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A4476212B336AB007952BA /* TKGameController.m */; };
+		B5A5DC6012B617BF0042F3BB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A5DC5F12B617BF0042F3BB /* CoreMedia.framework */; };
+		B5A74FD312B42D49003874DA /* TKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A74FD212B42D49003874DA /* TKLabel.m */; };
+		B5A7509C12B43F8D003874DA /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A7509B12B43F8D003874DA /* Icon-iPad.png */; };
+		B5BB34751237038000026A01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BB34741237038000026A01 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Melodic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melodic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Tunak_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tunak_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Tunak-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tunak-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B5297975129BA836001F5FB3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B53BB20212B5A26100E19B5F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B5584A30125A9D2700D5049E /* NoArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoArtwork.png; sourceTree = "<group>"; };
+		B587BB5D1245C7AA00801A9D /* LargeDrawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargeDrawer.png; sourceTree = "<group>"; };
+		B587BB5E1245C7AA00801A9D /* LargeDrawerWBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargeDrawerWBackground.png; sourceTree = "<group>"; };
+		B587BB5F1245C7AA00801A9D /* SmallDrawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallDrawer.png; sourceTree = "<group>"; };
+		B587BB671245C7CF00801A9D /* Accuracy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Accuracy.png; sourceTree = "<group>"; };
+		B587BB681245C7CF00801A9D /* HighScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighScore.png; sourceTree = "<group>"; };
+		B59520A8127C953A0001082D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B596E05412467A3800E983C4 /* Endurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Endurance.png; sourceTree = "<group>"; };
+		B596E05512467A3800E983C4 /* HighScores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighScores.png; sourceTree = "<group>"; };
+		B59A7FB51230361900B67234 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B5A4474812B336A4007952BA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B5A4474912B336A4007952BA /* TunakAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunakAppDelegate.h; sourceTree = "<group>"; };
+		B5A4474A12B336A4007952BA /* TunakAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunakAppDelegate.m; sourceTree = "<group>"; };
+		B5A4474E12B336AB007952BA /* TKSongCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSongCell.h; sourceTree = "<group>"; };
+		B5A4474F12B336AB007952BA /* TKSongCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSongCell.m; sourceTree = "<group>"; };
+		B5A4475012B336AB007952BA /* TKPadSongCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPadSongCell.xib; sourceTree = "<group>"; };
+		B5A4475112B336AB007952BA /* TKPhoneSongCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPhoneSongCell.xib; sourceTree = "<group>"; };
+		B5A4475312B336AB007952BA /* TKMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMainView.h; sourceTree = "<group>"; };
+		B5A4475412B336AB007952BA /* TKMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMainView.m; sourceTree = "<group>"; };
+		B5A4475512B336AB007952BA /* TKPadMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPadMainView.xib; sourceTree = "<group>"; };
+		B5A4475612B336AB007952BA /* TKPhoneMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPhoneMainView.xib; sourceTree = "<group>"; };
+		B5A4475912B336AB007952BA /* TKStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKStatusCell.h; sourceTree = "<group>"; };
+		B5A4475A12B336AB007952BA /* TKStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKStatusCell.m; sourceTree = "<group>"; };
+		B5A4475B12B336AB007952BA /* TKPadStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPadStatusCell.xib; sourceTree = "<group>"; };
+		B5A4475C12B336AB007952BA /* TKPhoneStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPhoneStatusCell.xib; sourceTree = "<group>"; };
+		B5A4475D12B336AB007952BA /* TKGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGameView.h; sourceTree = "<group>"; };
+		B5A4475E12B336AB007952BA /* TKGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGameView.m; sourceTree = "<group>"; };
+		B5A4475F12B336AB007952BA /* TKPhoneGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPhoneGameView.xib; sourceTree = "<group>"; };
+		B5A4476012B336AB007952BA /* TKPadGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKPadGameView.xib; sourceTree = "<group>"; };
+		B5A4476112B336AB007952BA /* TKGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGameController.h; sourceTree = "<group>"; };
+		B5A4476212B336AB007952BA /* TKGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGameController.m; sourceTree = "<group>"; };
+		B5A5DC5F12B617BF0042F3BB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B5A74FD112B42D49003874DA /* TKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLabel.h; sourceTree = "<group>"; };
+		B5A74FD212B42D49003874DA /* TKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLabel.m; sourceTree = "<group>"; };
+		B5A7509B12B43F8D003874DA /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		B5BB34741237038000026A01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				B59A7FB61230361900B67234 /* MediaPlayer.framework in Frameworks */,
+				B5BB34751237038000026A01 /* QuartzCore.framework in Frameworks */,
+				B59520A9127C953A0001082D /* iAd.framework in Frameworks */,
+				B53BB20312B5A26100E19B5F /* AVFoundation.framework in Frameworks */,
+				B5A5DC6012B617BF0042F3BB /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Melodic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4474612B3367D007952BA /* Source */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Tunak_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B58DD825123BDF46001B0064 /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Tunak-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BB34741237038000026A01 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				B59A7FB51230361900B67234 /* MediaPlayer.framework */,
+				B59520A8127C953A0001082D /* iAd.framework */,
+				B53BB20212B5A26100E19B5F /* AVFoundation.framework */,
+				B5A5DC5F12B617BF0042F3BB /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58DD825123BDF46001B0064 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5A7509B12B43F8D003874DA /* Icon-iPad.png */,
+				B5297975129BA836001F5FB3 /* Icon.png */,
+				B5584A30125A9D2700D5049E /* NoArtwork.png */,
+				B596E05412467A3800E983C4 /* Endurance.png */,
+				B596E05512467A3800E983C4 /* HighScores.png */,
+				B587BB5D1245C7AA00801A9D /* LargeDrawer.png */,
+				B587BB5E1245C7AA00801A9D /* LargeDrawerWBackground.png */,
+				B587BB5F1245C7AA00801A9D /* SmallDrawer.png */,
+				B587BB671245C7CF00801A9D /* Accuracy.png */,
+				B587BB681245C7CF00801A9D /* HighScore.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B5A4474612B3367D007952BA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B5A74FD012B42D36003874DA /* Custom Subclasses */,
+				B5A4474712B336A4007952BA /* Application */,
+				B5A4474C12B336AB007952BA /* Shared */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B5A4474712B336A4007952BA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4474812B336A4007952BA /* Constants.h */,
+				B5A4474912B336A4007952BA /* TunakAppDelegate.h */,
+				B5A4474A12B336A4007952BA /* TunakAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B5A4474C12B336AB007952BA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4476112B336AB007952BA /* TKGameController.h */,
+				B5A4476212B336AB007952BA /* TKGameController.m */,
+				B5A4475712B336AB007952BA /* Game View */,
+				B5A4475212B336AB007952BA /* Main View */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		B5A4474D12B336AB007952BA /* Song Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4474E12B336AB007952BA /* TKSongCell.h */,
+				B5A4474F12B336AB007952BA /* TKSongCell.m */,
+				B5A4475012B336AB007952BA /* TKPadSongCell.xib */,
+				B5A4475112B336AB007952BA /* TKPhoneSongCell.xib */,
+			);
+			name = "Song Cell";
+			sourceTree = "<group>";
+		};
+		B5A4475212B336AB007952BA /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4475312B336AB007952BA /* TKMainView.h */,
+				B5A4475412B336AB007952BA /* TKMainView.m */,
+				B5A4475512B336AB007952BA /* TKPadMainView.xib */,
+				B5A4475612B336AB007952BA /* TKPhoneMainView.xib */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		B5A4475712B336AB007952BA /* Game View */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4475D12B336AB007952BA /* TKGameView.h */,
+				B5A4475E12B336AB007952BA /* TKGameView.m */,
+				B5A4475F12B336AB007952BA /* TKPhoneGameView.xib */,
+				B5A4476012B336AB007952BA /* TKPadGameView.xib */,
+				B5A4475812B336AB007952BA /* Status Cell */,
+				B5A4474D12B336AB007952BA /* Song Cell */,
+			);
+			name = "Game View";
+			sourceTree = "<group>";
+		};
+		B5A4475812B336AB007952BA /* Status Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4475912B336AB007952BA /* TKStatusCell.h */,
+				B5A4475A12B336AB007952BA /* TKStatusCell.m */,
+				B5A4475B12B336AB007952BA /* TKPadStatusCell.xib */,
+				B5A4475C12B336AB007952BA /* TKPhoneStatusCell.xib */,
+			);
+			name = "Status Cell";
+			sourceTree = "<group>";
+		};
+		B5A74FD012B42D36003874DA /* Custom Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				B5A74FD112B42D49003874DA /* TKLabel.h */,
+				B5A74FD212B42D49003874DA /* TKLabel.m */,
+			);
+			name = "Custom Subclasses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Melodic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Melodic" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melodic;
+			productName = Tunak;
+			productReference = 1D6058910D05DD3D006BFB54 /* Melodic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tunak" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Melodic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B587BB601245C7AA00801A9D /* LargeDrawer.png in Resources */,
+				B587BB611245C7AA00801A9D /* LargeDrawerWBackground.png in Resources */,
+				B587BB621245C7AA00801A9D /* SmallDrawer.png in Resources */,
+				B587BB691245C7CF00801A9D /* Accuracy.png in Resources */,
+				B587BB6A1245C7CF00801A9D /* HighScore.png in Resources */,
+				B596E05612467A3800E983C4 /* Endurance.png in Resources */,
+				B596E05712467A3800E983C4 /* HighScores.png in Resources */,
+				B5584A31125A9D2700D5049E /* NoArtwork.png in Resources */,
+				B5297976129BA836001F5FB3 /* Icon.png in Resources */,
+				B5A4476412B336AB007952BA /* TKPadSongCell.xib in Resources */,
+				B5A4476512B336AB007952BA /* TKPhoneSongCell.xib in Resources */,
+				B5A4476712B336AB007952BA /* TKPadMainView.xib in Resources */,
+				B5A4476812B336AB007952BA /* TKPhoneMainView.xib in Resources */,
+				B5A4476A12B336AB007952BA /* TKPadStatusCell.xib in Resources */,
+				B5A4476B12B336AB007952BA /* TKPhoneStatusCell.xib in Resources */,
+				B5A4476D12B336AB007952BA /* TKPhoneGameView.xib in Resources */,
+				B5A4476E12B336AB007952BA /* TKPadGameView.xib in Resources */,
+				B5A7509C12B43F8D003874DA /* Icon-iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				B5A4474B12B336A4007952BA /* TunakAppDelegate.m in Sources */,
+				B5A4476312B336AB007952BA /* TKSongCell.m in Sources */,
+				B5A4476612B336AB007952BA /* TKMainView.m in Sources */,
+				B5A4476912B336AB007952BA /* TKStatusCell.m in Sources */,
+				B5A4476C12B336AB007952BA /* TKGameView.m in Sources */,
+				B5A4476F12B336AB007952BA /* TKGameController.m in Sources */,
+				B5A74FD312B42D49003874DA /* TKLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tunak_Prefix.pch;
+				INFOPLIST_FILE = "Tunak-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Melodic;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Ferguson";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tunak_Prefix.pch;
+				INFOPLIST_FILE = "Tunak-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Melodic;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "779A6918-435E-4454-986D-4F2CD0271FA0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A7509612B43EC2003874DA /* Release - Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Ferguson";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A204BCDF-5BDA-4F73-97AA-3E26DA4EB779";
+				SDKROOT = iphoneos;
+			};
+			name = "Release - Ad Hoc";
+		};
+		B5A7509712B43EC2003874DA /* Release - Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Ferguson";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tunak_Prefix.pch;
+				INFOPLIST_FILE = "Tunak-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Tunac;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A204BCDF-5BDA-4F73-97AA-3E26DA4EB779";
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release - Ad Hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Ferguson";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "779A6918-435E-4454-986D-4F2CD0271FA0";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Melodic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B5A7509712B43EC2003874DA /* Release - Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tunak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B5A7509612B43EC2003874DA /* Release - Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
